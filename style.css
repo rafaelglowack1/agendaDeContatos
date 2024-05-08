@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgba(28, 99, 28, 0.581);
+    text-align: center;
+    margin: auto;
+    padding: 12px;
+    margin-bottom:20px ;
+    width: 600px;
+}
+form{
+    background-color:rgba(28, 99, 28, 0.581) ;
+    margin: auto;
+    width: 600px;
+    padding: 12px;
+}
+table{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+f
+
