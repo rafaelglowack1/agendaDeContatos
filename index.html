@@ -8,13 +8,15 @@
 </head>
 <body>
     <header>
-        <h1>agenda de contatos </h1>
+        <h1>agenda telefonica de contatos pessoais  </h1>
     </header>
-    <form >
-        <input type="text" placeholder="nome"> <br>
-        <input type="number" placeholder="número de telefone "><br>
-        <button type="button">adicionar</button>
-    </form>
+    <section>
+        <form id="formulario">
+            <input type="text" placeholder="nome" class="nome" required> <br>
+            <input type="number" placeholder="número de telefone " class="numero" ><br>
+            <button type="submit">adicionar</button>
+        </form>
+    </section>
     <table>
         <thead>
             <tr>
@@ -22,15 +24,14 @@
                 <td>telefone</td>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="tbody">
             <tr>
                 <td>---</td>
                 <td>---</td>
             </tr>
         </tbody>
     </table>
-    <footer>
-        <p>produzido por Rafael Glowacki</p>
-    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
